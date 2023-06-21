@@ -1,0 +1,18 @@
+@import "@/assets/styles/vars";
+
+.popup__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba($black, 0.3);
+}
+
+.popup {
+  background-color: $white;
+  padding: 50px;
+}

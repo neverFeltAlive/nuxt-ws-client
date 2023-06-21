@@ -1,0 +1,12 @@
+@import "@/assets/styles/vars";
+
+.lego-button {
+  background-color: $gray;
+  padding: 5px;
+  transition: $transition;
+
+  &:hover {
+    background-color: $red;
+    color: $white;
+  }
+}
