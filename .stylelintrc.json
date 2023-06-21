@@ -1,21 +1,11 @@
 {
   "extends": [
-    "stylelint-config-standard-scss",
-    "stylelint-config-recommended-scss"
+    "stylelint-config-recommended-scss",
+    "stylelint-config-recommended-vue"
   ],
   "plugins": ["stylelint-prettier", "stylelint-scss"],
   "rules": {
     "selector-class-pattern": null,
-    "indentation": 2,
-    "order/properties-order": [
-      "display",
-      "position",
-      "z-index",
-      "top",
-      "right",
-      "bottom",
-      "left"
-    ],
     "rule-empty-line-before": "always",
     "at-rule-empty-line-before": "always",
     "selector-max-id": 2,
