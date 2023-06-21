@@ -8,6 +8,7 @@ node_modules
 dist
 .DS_Store
 
+.env.local
 .stylelintcache
 
 # Editor directories and files

@@ -1,3 +1,5 @@
+const ENV_MODE = process.env.NODE_ENV === 'production' ? 'error' : 'off';
+
 module.exports = {
   root: true,
   env: {
@@ -11,8 +13,9 @@ module.exports = {
   ],
   rules: {
     'vue/component-name-in-template-casing': ['error', 'kebab-case'],
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'vue/multi-word-component-names': ENV_MODE,
+    'no-console': ENV_MODE,
+    'no-debugger': ENV_MODE,
     'prettier/prettier': 0,
   },
   globals: {
