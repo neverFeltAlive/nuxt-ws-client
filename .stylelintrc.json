@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-recommended-scss"
+  ],
+  "plugins": ["stylelint-prettier", "stylelint-scss"],
+  "rules": {
+    "selector-class-pattern": null,
+    "indentation": 2,
+    "order/properties-order": [
+      "display",
+      "position",
+      "z-index",
+      "top",
+      "right",
+      "bottom",
+      "left"
+    ],
+    "rule-empty-line-before": "always",
+    "at-rule-empty-line-before": "always",
+    "selector-max-id": 2,
+    "no-empty-source": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ]
+  }
+}

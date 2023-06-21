@@ -1,0 +1,17 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+
+  "importOrderSeparation": true,
+  "importOrder": [
+    "^vite$",
+    "^vue$",
+    "<THIRD_PARTY_MODULES>",
+    "@components",
+    "@utils",
+    "@assets",
+    "^./|^../"
+  ]
+}
