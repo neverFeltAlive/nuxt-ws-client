@@ -1,23 +1,25 @@
-# Nuxt dev/build outputs
-.output
+node_modules
+*.log*
 .nuxt
 .nitro
 .cache
-dist
-
-# Node dependencies
-node_modules
-
-# Logs
-logs
-*.log
-
-# Misc
-.DS_Store
-.fleet
-.idea
-
-# Local env files
+.output
 .env
-.env.*
-!.env.example
+dist
+.DS_Store
+
+.env.local
+.stylelintcache
+android
+ios
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

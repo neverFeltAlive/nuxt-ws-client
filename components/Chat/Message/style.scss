@@ -1,0 +1,24 @@
+@import "@/assets/styles/vars";
+
+.chat-message {
+  padding: 5px;
+  background-color: $gray;
+
+  &__author,
+  &__date {
+    font-size: 10px;
+  }
+
+  &__date {
+    text-align: right;
+  }
+
+  &--current {
+    background-color: rgba($red, 0.3);
+    text-align: right;
+
+    .chat-message__date {
+      text-align: left;
+    }
+  }
+}
