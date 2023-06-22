@@ -10,8 +10,6 @@
     "postinstall": "nuxt prepare",
     "format": " prettier --write ./**/**.{js,scss,vue} && eslint --fix",
     "format:style": "stylelint ./**/**.{css,scss} --fix --config ./.stylelintrc.json",
-    "ionic:build": "npm run build",
-    "ionic:serve": "npm run dev"
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.6.2",
