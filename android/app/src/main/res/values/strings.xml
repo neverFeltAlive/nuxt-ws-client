@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">simple-nuxt-chat</string>
+    <string name="title_activity_main">simple-nuxt-chat</string>
+    <string name="package_name">neverFeltAlive.simple.chat</string>
+    <string name="custom_url_scheme">neverFeltAlive.simple.chat</string>
+</resources>
