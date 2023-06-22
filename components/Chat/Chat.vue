@@ -1,5 +1,7 @@
 <template>
-  <section v-if="!login">Подключение...</section>
+  <section v-if="!login && !isPopupVisible">
+    Подключение к {{ config.public.serverSocket }} ...
+  </section>
   <section v-if="login" class="chat__container">
     <div class="chat">
       <h1 class="chat__title">Simple Chat</h1>
@@ -26,6 +28,8 @@ provide('socket', socket);
 const isPopupVisible = ref(false);
 
 const { login } = storeToRefs(useChatStore());
+
+const config = useRuntimeConfig();
 
 socket.on('connect', () => {
   isPopupVisible.value = true;

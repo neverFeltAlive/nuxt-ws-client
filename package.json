@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "format": " prettier --write ./**/**.{js,scss,vue} && eslint --fix",
-    "format:style": "stylelint ./**/**.{css,scss} --fix --config ./.stylelintrc.json",
+    "format:style": "stylelint ./**/**.{css,scss} --fix --config ./.stylelintrc.json"
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.6.2",
