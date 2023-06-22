@@ -14,3 +14,5 @@ npx cap run android
 # or to launch in android studio
 npx cap open android
 ```
+
+#### For the server I used [this simple ws server](https://github.com/neverFeltAlive/ws-server.git)
