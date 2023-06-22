@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 const currentDir = dirname(fileURLToPath(import.meta.url));
 
 export default defineNuxtConfig({
+  ssr: false,
   runtimeConfig: {
     public: {
       serverSocket: process.env.SERVER_SOCKET || 'localhost:8080',

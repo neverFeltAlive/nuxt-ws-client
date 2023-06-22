@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "format": " prettier --write ./**/**.{js,scss,vue} && eslint --fix",
-    "format:style": "stylelint ./**/**.{css,scss} --fix --config ./.stylelintrc.json"
+    "format:style": "stylelint ./**/**.{css,scss} --fix --config ./.stylelintrc.json",
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.6.2",
@@ -53,6 +53,10 @@
     }
   },
   "dependencies": {
+    "@capacitor/android": "^5.0.5",
+    "@capacitor/cli": "^5.0.5",
+    "@capacitor/core": "^5.0.5",
+    "@capacitor/ios": "^5.0.5",
     "@pinia/nuxt": "^0.4.11",
     "pinia": "^2.1.4",
     "socket.io-client": "^4.6.2"

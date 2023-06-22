@@ -1,4 +1,5 @@
 <template>
+  <section v-if="!login">Подключение...</section>
   <section v-if="login" class="chat__container">
     <div class="chat">
       <h1 class="chat__title">Simple Chat</h1>
